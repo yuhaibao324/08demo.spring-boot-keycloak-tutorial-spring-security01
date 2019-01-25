@@ -1,6 +1,6 @@
 {
   "realm": "springdemo",
-  "auth-server-url": "http://localhost:8080/auth",
+  "auth-server-url": "http://192.168.11.183:8080/auth",
   "resource": "product-app",
   "public-client": true,
   "confidential-port": 0
