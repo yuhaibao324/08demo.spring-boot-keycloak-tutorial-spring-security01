@@ -40,6 +40,7 @@ class ProductController {
 	@GetMapping(path = "/products")
 	public String getProducts(Model model){
 		model.addAttribute("products", Arrays.asList("iPad","iPhone","iPod"));
+		System.out.println("Products:->getProducts()......");
 		return "products";
 	}
 
