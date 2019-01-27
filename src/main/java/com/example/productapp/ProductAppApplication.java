@@ -39,7 +39,7 @@ class ProductController {
 
 	@GetMapping(path = "/products")
 	public String getProducts(Model model){
-		model.addAttribute("products", Arrays.asList("iPad","iPhone","iPod"));
+		model.addAttribute("products", Arrays.asList("华为手机","苹果电脑","容声冰箱"));
 		System.out.println("Products:->getProducts()......");
 		return "products";
 	}

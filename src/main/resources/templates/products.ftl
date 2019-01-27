@@ -10,5 +10,5 @@
 </#list>
 </ul>
 <br>
-<a href="/logout">Logout</a>
+<a href="/logout">注销-登出</a>
 </html>
